@@ -42,7 +42,7 @@ let createTask = (isValid, output) => {
 
         //  Edit  icon
         let img1 = document.createElement("img");
-        img1.setAttribute("src", "/To Do List/Pic/pen.png");
+        img1.setAttribute("src", "Pic/pen.png");
         img1.classList.add("edit");
 
         //  Strike through the task on click
@@ -52,7 +52,7 @@ let createTask = (isValid, output) => {
 
         //  Delete icon
         let img2 = document.createElement("img");
-        img2.setAttribute("src", "/To Do List/Pic/garbage-bag.png");
+        img2.setAttribute("src", "Pic/garbage-bag.png");
         img2.classList.add("delete");
 
         img2.addEventListener("click", () => {
